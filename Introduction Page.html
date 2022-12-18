@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+          background-image: url('Newtons Cradle.gif');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        grey{
+            color: whitesmoke;
+            font: italic;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+/* Create three equal columns that floats next to each other */
+        .column {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+        }
+
+/* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+/* Hyperlink Style */
+        a{
+            color: black;
+        }
+        a:hover{
+            color: white;
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+        div.fixed {
+            position: fixed;
+            width: 100%;
+            bottom: 10px;
+            border: 1px solid #88c00700;
+        } 
+    </style>
+</head>
+<body>
+    <grey><center><h1>Mechanics</h1></center></grey>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="fixed">
+        <div class="row">
+            <div class="column" style="background-color:#aaa;">
+            <h2><center><a href="./Kinematics/Day1.html" target="_blank">Kinematics</a></center></h2>
+            </div>
+            <div class="column" style="background-color:#bbb;">
+            <h2><center><a href="./Statics/Day1.html" target="_blank">Statics</a></center></h2>
+            </div>
+            <div class="column" style="background-color:#ccc;">
+            <h2><center><a href="./Dynamics/Day1.html" target="_blank">Dynamics</a></center></h2>
+            </div>
+            <div class="column" style="background-color:rgb(219, 215, 215);">
+            <h2><center><a href="./Work and Energy/Day1.html" target="_blank">Work and Energy</a></center></h2>
+            </div>
+            <div class="column" style="background-color:rgb(228, 224, 224);">
+            <h2><center><a href="./Momentum and Impulse/Day1.html" target="_blank">Momentum and Impulse</a></center></h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
